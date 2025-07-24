@@ -47,3 +47,15 @@ cd MindOnFingers
 pip install opencv-python mediapipe numpy
 3.**Run the application**
 python hand_gesture_solver.py
+
+1. **Create a Project Folder**
+mkdir GestureMathSolver
+cd GestureMathSolver
+python -m venv venv
+
+2.**Activate Virtual Environment**
+.\venv\Scripts\activate   # For Windows
+3.**Install Required Libraries**
+pip install opencv-python mediapipe numpy
+4.**Create a Python File**
+Save as gesture_math_solver.py
